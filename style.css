@@ -13,13 +13,25 @@
 }
 .nav-logo{
     height: 50px;
-    width: 100px;
+    width: 127px;
 }
-.logo{
+.logo {
+
+    align-items: center;
+    /* height: 70px;
+    width: 70px; */
+
+    img{ 
     /* background-image: url("amazon_logo.png"); */
-    height: 50px;
-    width: 50px;
-    background-size:cover;
+    object-fit: cover;
+    background-size:cover ;
+    /* height: 100px; */
+    width: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+}
 }
 .border{
     border:2px solid transparent;
